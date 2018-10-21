@@ -1,0 +1,23 @@
+{
+   "name": "ioa-apps",
+   "version": "1.0.0",
+   "description": "ioa多应用启动模板",
+   "scripts": {
+      "start": "node index.js",
+      "dev": "node index.js",
+      "test": "jtf -w"
+   },
+   "dependencies": {
+      "@koa/cors": "^2.2.2",
+      "ioa": "^4.1.0",
+      "ioa-auth": "0.0.1",
+      "ioa-cors": "^1.0.1",
+      "ioa-db": "0.0.5",
+      "ioa-role": "0.0.7"
+   },
+   "author": "xiangle",
+   "license": "ISC",
+   "devDependencies": {
+      "axios": "^0.18.0"
+   }
+}

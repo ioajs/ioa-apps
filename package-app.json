@@ -1,0 +1,38 @@
+{
+   "main": {
+      "enable": true
+   },
+   "admin": {
+      "enable": true
+   },
+   "user": {
+      "enable": true
+   },
+   "db": {
+      "enable": true,
+      "package": "ioa-db",
+      "config": {
+         "postgres": {
+            "host": "localhost",
+            "database": "query",
+            "username": "postgres",
+            "password": "postgres"
+         }
+      }
+   },
+   "auth": {
+      "enable": true,
+      "package": "ioa-auth",
+      "config":{
+         "authKey": "test"
+      }
+   },
+   "role": {
+      "enable": true,
+      "package": "ioa-role"
+   },
+   "cors": {
+      "enable": true,
+      "package": "ioa-cors"
+   }
+}
