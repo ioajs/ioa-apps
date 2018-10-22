@@ -1,7 +1,0 @@
-{
-   "name": "ioa-admin",
-   "version": "1.0.0",
-   "ioDependencies": {
-      "db": "^1.0.0"
-   }
-}

@@ -1,3 +1,1 @@
-module.exports = {
-   middlewares: ['cors']
-}
+module.exports = {}
