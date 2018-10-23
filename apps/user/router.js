@@ -1,11 +1,11 @@
 'use strict';
 
-const app = require('ioa')
+let { router, middleware } = require('ioa')
 
-const { test, intercept } = app.middleware
+const { test, intercept } = middleware
 
-app.get('/user', test, 'index.home')
+router.get('/user', test, 'index.home')
 
-app.get('/user/news', test, 'news.details')
+router.get('/user/news', test, 'news.details')
 
-app.get('/user/intercept', intercept, 'news.details')
+router.get('/user/intercept', intercept, 'news.details')

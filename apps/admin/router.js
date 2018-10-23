@@ -1,15 +1,15 @@
 'use strict';
 
-const app = require('ioa')
+let { router, middleware } = require('ioa')
 
-const { test, intercept } = app.middleware
+const { test, intercept } = middleware
 
-app.get('/admin', test, 'index.index')
+router.get('/admin', test, 'index.index')
 
-app.get('/admin/:id', 'index.details')
+router.get('/admin/:id', 'index.details')
 
-app.post('/admin', 'index.add')
+router.post('/admin', 'index.add')
 
-app.put('/admin/:id', 'index.update')
+router.put('/admin/:id', 'index.update')
 
-app.delete('/admin/:id', 'index.delete')
+router.delete('/admin/:id', 'index.delete')

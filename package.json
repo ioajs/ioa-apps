@@ -8,7 +8,7 @@
    },
    "dependencies": {
       "@koa/cors": "^2.2.2",
-      "ioa": "^4.3.0",
+      "ioa": "^4.4.0",
       "ioa-auth": "^0.0.1",
       "ioa-cors": "^1.0.1",
       "ioa-db": "0.0.6",
