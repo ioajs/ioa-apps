@@ -27,10 +27,6 @@
          "authKey": "test"
       }
    },
-   "role": {
-      "enable": true,
-      "package": "ioa-role"
-   },
    "cors": {
       "enable": true,
       "package": "ioa-cors"
