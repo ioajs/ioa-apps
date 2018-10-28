@@ -10,5 +10,5 @@ test('get /user', async t => {
 
 test('get /user/news', async t => {
    let { data } = await axios.get("/user/news")
-   t.deepEqual({ "parameter": {}, "body": "news details" }, data)
+   t.deepEqual({ "params": {}, "body": "news details" }, data)
 })

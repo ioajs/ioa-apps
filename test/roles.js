@@ -10,5 +10,5 @@ const { axios } = require('./helpers')
 
 // test('get /model/news', async t => {
 //    let { data } = await axios.get("/model/news")
-//    t.deepEqual({ "parameter": {}, "body": "news details" }, data)
+//    t.deepEqual({ "params": {}, "body": "news details" }, data)
 // });

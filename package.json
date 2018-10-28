@@ -7,8 +7,7 @@
       "test": "jtf -w"
    },
    "dependencies": {
-      "@koa/cors": "^2.2.2",
-      "ioa": "^4.4.0",
+      "ioa": "^4.4.2",
       "ioa-auth": "^0.2.0",
       "ioa-cors": "^1.0.1",
       "ioa-db": "0.0.6"
