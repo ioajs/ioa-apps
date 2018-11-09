@@ -1,4 +1,4 @@
 module.exports = {
    middlewares: ['cors'],
-   port: 8600
+   port: 8500
 }

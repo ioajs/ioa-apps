@@ -12,7 +12,7 @@
       "enable": true,
       "package": "ioa-db",
       "config": {
-         "postgres": {
+         "default": {
             "host": "localhost",
             "database": "query",
             "username": "postgres",
@@ -24,7 +24,9 @@
       "enable": true,
       "package": "ioa-auth",
       "config":{
-         "authKey": "test"
+         "default": {
+            "authKey": "test"
+         }
       }
    },
    "cors": {
