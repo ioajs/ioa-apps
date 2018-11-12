@@ -1,14 +1,12 @@
 'use strict';
 
 module.exports = {
-   "db": {
-      'Sequelize': true,
-      'sequelize': true
+   'Sequelize': "db",
+   'sequelize': "db",
+   'auth': "auth",
+   'middleware': {
+      'auth': 'auth.middleware',
+      'role': 'auth.middleware'
    },
-   "auth": {
-      'middleware': {
-         'auth': true
-      },
-      'auth': true
-   },
+   'sign': 'auth'
 }
