@@ -1,6 +1,6 @@
 'use strict';
 
-const { Sequelize, sequelize } = require('ioa')
+const { Sequelize, sequelize } = require('@app')
 const { STRING, INTEGER, JSONB, BIGINT } = Sequelize
 
 const model = sequelize.define('document', {

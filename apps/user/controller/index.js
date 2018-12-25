@@ -1,4 +1,4 @@
-const app = require('ioa')
+const app = require('@app')
 
 class index {
    home(ctx) {
