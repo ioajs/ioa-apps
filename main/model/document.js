@@ -1,9 +1,12 @@
 'use strict';
 
-const { Sequelize, sequelize } = require('@app')
-const { STRING, INTEGER, JSONB, BIGINT } = Sequelize
+const { apps } = require('@app');
 
-const model = sequelize.define('document', {
+const { Ormv, ormv } = apps.model;
+
+const { STRING, INTEGER, JSONB, BIGINT } = Ormv.Type;
+
+const model = ormv.define('document', {
    'title': {
       name: '标题',
       type: STRING,
@@ -17,7 +20,7 @@ const model = sequelize.define('document', {
 })
 
 model.role = {
-   admin:{
+   admin: {
       find: {
          where: ['uid'],
       },
@@ -31,12 +34,12 @@ model.role = {
          where: ['uid'],
       },
    },
-   user:{
+   user: {
       find: {
          // where: ['uid'],
       }
    },
-   tourist:{
+   tourist: {
       find: {
          where: [],
       }
@@ -45,4 +48,4 @@ model.role = {
 
 // model.sync({ force: true })
 
-module.exports = model
+module.exports = model;
