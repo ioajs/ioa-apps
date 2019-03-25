@@ -1,8 +1,8 @@
 'use strict';
 
-const { apps } = require('@app');
+const app = require('@app');
 
-const { Ormv, ormv } = apps.model;
+const { Ormv, ormv } = app;
 
 const { STRING, INTEGER, JSONB, BIGINT } = Ormv.Type;
 

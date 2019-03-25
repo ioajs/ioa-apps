@@ -1,22 +1,46 @@
 'use strict';
 
 module.exports = {
-   "@ioa/http": {
+   "./main": {
       "enable": true,
-      options(ioa, options) {
-         Object.assign(ioa.options, options);
-      }
-   },
-   "@ioa/auth": {
-      "enable": true,
-   },
-   "@ioa/model": {
-      "enable": true
+      "components": {
+         "@ioa/http": {
+            "enable": true
+         },
+         "@ioa/model": {
+            "enable": true,
+         },
+         "@ioa/auth": {
+            "enable": true,
+         },
+      },
    },
    "./component/admin": {
-      "enable": true
+      "enable": true,
+      "components": {
+         "@ioa/http": {
+            "enable": true
+         },
+         "@ioa/model": {
+            "enable": true,
+         },
+         "@ioa/auth": {
+            "enable": true,
+         },
+      },
    },
    "./component/user": {
-      "enable": true
+      "enable": true,
+      "components": {
+         "@ioa/http": {
+            "enable": true
+         },
+         "@ioa/model": {
+            "enable": true,
+         },
+         "@ioa/auth": {
+            "enable": true,
+         },
+      },
    },
 }

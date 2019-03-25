@@ -1,7 +1,7 @@
 module.exports = {
    port: 8500,
-   "@apps": {
-      "model": {
+   "@components": {
+      "@ioa/model": {
          "host": "localhost",
          "port": 5432,
          "database": "test",
@@ -9,7 +9,7 @@ module.exports = {
          "password": "postgres",
          "logger": true
       },
-      "auth": {
+      "@ioa/auth": {
          "authKey": "test"
       }
    }

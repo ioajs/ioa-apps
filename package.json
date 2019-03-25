@@ -7,10 +7,10 @@
       "test": "jtf -w"
    },
    "dependencies": {
-      "@ioa/auth": "^6.0.1",
-      "@ioa/http": "^0.0.7",
-      "@ioa/model": "^6.0.0-alpha.5",
-      "ioa": "^6.0.0-alpha.4"
+      "@ioa/auth": "^6.1.0",
+      "@ioa/http": "0.0.8",
+      "@ioa/model": "^6.1.0-alpha.0",
+      "ioa": "^6.1.0-alpha.2"
    },
    "author": "xiangle",
    "license": "ISC",
