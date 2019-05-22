@@ -1,8 +1,10 @@
 'use strict';
 
 module.exports = {
-   port: 8500,
    "components": {
+      "@ioa/http": {
+         port: 8500,
+      },
       "@ioa/model": {
          "host": "localhost",
          "port": 5432,

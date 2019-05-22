@@ -8,9 +8,9 @@
    },
    "dependencies": {
       "@ioa/auth": "^7.0.0-alpha.0",
-      "@ioa/http": "^7.0.0-alpha.0",
+      "@ioa/http": "^7.0.0-alpha.6",
       "@ioa/model": "^7.0.0-alpha.0",
-      "ioa": "^7.0.0-alpha.0"
+      "ioa": "^7.0.0-alpha.9"
    },
    "author": "xiangle",
    "license": "ISC",
