@@ -1,6 +1,6 @@
 'use strict';
 
-let { router, middleware } = require('@app');
+const { router, middleware } = require('@app');
 
 const { test, intercept } = middleware;
 

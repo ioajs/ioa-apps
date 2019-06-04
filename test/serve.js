@@ -6,7 +6,7 @@ ioa.loader({
    "./main": {
       "enable": true,
       "components": {
-         "@ioa/http": {
+         "@ioa/koa": {
             "enable": true
          },
          "@ioa/model": {
@@ -17,10 +17,10 @@ ioa.loader({
          },
       },
    },
-   "./component/admin": {
+   "./admin": {
       "enable": true,
       "components": {
-         "@ioa/http": {
+         "@ioa/koa": {
             "enable": true
          },
          "@ioa/model": {
@@ -31,10 +31,10 @@ ioa.loader({
          },
       },
    },
-   "./component/user": {
+   "./user": {
       "enable": true,
       "components": {
-         "@ioa/http": {
+         "@ioa/koa": {
             "enable": true
          },
          "@ioa/model": {

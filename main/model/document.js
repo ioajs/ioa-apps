@@ -19,33 +19,6 @@ const model = ormv.define('document', {
    }
 })
 
-model.role = {
-   admin: {
-      find: {
-         where: ['uid'],
-      },
-      create: {
-         where: ['uid'],
-      },
-      update: {
-         where: ['uid'],
-      },
-      destroy: {
-         where: ['uid'],
-      },
-   },
-   user: {
-      find: {
-         // where: ['uid'],
-      }
-   },
-   tourist: {
-      find: {
-         where: [],
-      }
-   }
-}
-
-// model.sync({ force: true })
+// model.sync()
 
 module.exports = model;
