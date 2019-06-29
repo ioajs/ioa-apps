@@ -2,19 +2,19 @@
 
 const { router, middleware } = require('@app')
 
-const { role, auth } = middleware;
+const { auth } = middleware;
 
-router.get('/', role('admin', 'user', 'tourist'), 'home.index')
+router.get('/', auth.role('admin', 'user', 'tourist'), 'home.index')
 
 router.post('/login', 'home.login')
 
-router.get('/news', role('user', 'tourist'), 'news.home')
+router.get('/news', auth.role('user', 'tourist'), 'news.home')
 
-router.get('/news/:id/details/:kk', role('user', 'tourist'), 'news.details')
+router.get('/news/:id/details/:kk', auth.role('user', 'tourist'), 'news.details')
 
-router.get('/sms/:id/sd/:kk', role('user', 'tourist'), 'home.sms')
+router.get('/sms/:id/sd/:kk', auth.role('user', 'tourist'), 'home.sms')
 
-router.post('/sms/:id/sd/:kk', role('user', 'tourist'), 'home.sms')
+router.post('/sms/:id/sd/:kk', auth.role('user', 'tourist'), 'home.sms')
 
 ////////// REST路由 ////////////
 
