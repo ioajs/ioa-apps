@@ -18,4 +18,4 @@ class test {
    }
 }
 
-module.exports = test
+module.exports = test;
