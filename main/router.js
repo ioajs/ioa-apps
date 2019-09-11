@@ -2,9 +2,9 @@
 
 const { router, middleware } = require('@app');
 
-const { auth } = middleware;
+const { verify } = middleware;
 
-router.get('/', auth.verify, 'home.index');
+router.get('/', verify, 'home.index');
 
 router.post('/login', 'home.login');
 
