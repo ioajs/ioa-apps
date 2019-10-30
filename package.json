@@ -11,7 +11,7 @@
       "@ioa/config": "^9.5.0",
       "@ioa/koa": "^9.5.0",
       "@ioa/model": "^9.5.0",
-      "ioa": "^9.5.0"
+      "ioa": "^9.7.0"
    },
    "author": "xiangle",
    "license": "ISC",
