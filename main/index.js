@@ -7,6 +7,6 @@ app.on('@ioa/koa');
 app.on('@ioa/model');
 app.on('@ioa/auth');
 
-module.exports = {
-   middleware: false
-}
+// app.loader({
+//    middleware: false
+// })
