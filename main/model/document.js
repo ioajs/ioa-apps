@@ -2,19 +2,17 @@
 
 const app = require('@app');
 
-const { Ormv, ormv } = app;
+const { ormv } = app;
 
-const { string, integer, jsonb, } = Ormv.Type;
-
-const model = ormv.define('document', {
+const model = ormv.model('document', {
    'title': {
       name: '标题',
-      type: string,
+      type: 'string',
       allowNull: false,
    },
    'document': {
       name: 'markdown文档',
-      type: string,
+      type: 'string',
       allowNull: false,
    }
 })

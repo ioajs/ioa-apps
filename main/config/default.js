@@ -7,7 +7,7 @@ module.exports = {
    "@ioa/auth": {
       "password": "test"
    },
-   "@ioa/model": {
+   "@ioa/ormv": {
       "host": "localhost",
       "port": 5532,
       "database": "test",

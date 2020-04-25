@@ -9,9 +9,9 @@
    "dependencies": {
       "@ioa/auth": "^9.6.0",
       "@ioa/config": "^9.5.0",
-      "@ioa/koa": "^9.7.8",
-      "@ioa/model": "^9.7.0",
-      "ioa": "^9.7.5"
+      "@ioa/koa": "^9.7.10",
+      "@ioa/ormv": "^9.7.4",
+      "ioa": "^9.7.9"
    },
    "author": "xiangle",
    "license": "ISC",
