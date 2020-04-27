@@ -1,5 +1,3 @@
 'use strict';
 
-module.exports = {
-    "xxx": 666
-}
+module.exports = {}
