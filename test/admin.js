@@ -1,7 +1,7 @@
 'use strict';
 
-const test = require('jtf')
-const axios = require('axios')
+const test = require('jtf');
+const axios = require('axios');
 
 axios.defaults.baseURL = 'http://localhost:8600';
 

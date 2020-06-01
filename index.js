@@ -6,4 +6,4 @@ ioa.app(
   "./main",
   "./admin",
   "./user"
-)
+);

@@ -1,6 +1,7 @@
 {
    "name": "ioa-apps",
    "description": "ioa多应用启动模板",
+   "version": "9.8.6",
    "scripts": {
       "start": "node index.js",
       "dev": "node index.js",
@@ -10,8 +11,8 @@
       "@ioa/auth": "^9.6.0",
       "@ioa/config": "^9.5.0",
       "@ioa/koa": "^9.7.10",
-      "@ioa/ormv": "^9.8.1",
-      "ioa": "^9.8.4"
+      "@ioa/ormv": "^9.8.8",
+      "ioa": "^9.8.6"
    },
    "author": "xiangle",
    "license": "ISC",
