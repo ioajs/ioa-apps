@@ -2,7 +2,7 @@
 
 const { router, middleware } = require('@app');
 
-const { test, intercept } = middleware;
+const { test } = middleware;
 
 router.get('/admin', test, 'home.index')
 

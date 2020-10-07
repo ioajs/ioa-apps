@@ -1,8 +1,6 @@
 'use strict';
 
-const app = require('@app');
-
-class home {
+module.exports = class {
    async index(ctx) {
       ctx.body = 'admin index'
    }
@@ -18,6 +16,4 @@ class home {
    async delete(ctx) {
       ctx.body = 'admin delete'
    }
-}
-
-module.exports = home;
+};

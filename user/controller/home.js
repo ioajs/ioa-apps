@@ -1,9 +1,7 @@
 'use strict';
 
-class home {
+module.exports = class {
    index(ctx) {
       ctx.body = 'user home'
    }
 }
-
-module.exports = home

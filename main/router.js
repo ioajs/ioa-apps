@@ -18,7 +18,7 @@ router.post('/sms/:id/sd/:kk', 'home.sms');
 
 ////////// REST路由 ////////////
 
-// 模糊匹配路由，泛解析，通用模型控制器
+// get、post、put、delete 的快捷方式
 router.resources('/rest/:name', 'rest');
 
 // router.get('/rest/123', 'rest.123');

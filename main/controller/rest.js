@@ -1,6 +1,6 @@
 'use strict';
 
-class rest {
+module.exports = class {
    async index(ctx) {
       ctx.body = ctx.params
    }
@@ -29,5 +29,3 @@ class rest {
       ctx.body = 'xxxx'
    }
 }
-
-module.exports = rest
