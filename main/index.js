@@ -7,4 +7,4 @@ app.use('@ioa/koa');
 
 // app.loader({
 //    middleware: false
-// })
+// });

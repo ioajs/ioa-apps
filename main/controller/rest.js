@@ -26,6 +26,6 @@ module.exports = class {
     * @param {*} ctx 
     */
    async xxxx(ctx) {
-      ctx.body = 'xxxx'
+      ctx.body = 'xxxx';
    }
 }
