@@ -1,10 +1,8 @@
 'use strict';
 
-const { router, middleware } = require('@app');
+const { router } = require('@app');
 
-const { verify } = middleware;
-
-router.get('/', verify, 'home.index');
+router.get('/', 'home.index');
 
 router.post('/login', 'home.login');
 

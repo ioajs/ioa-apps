@@ -8,10 +8,8 @@
       "test": "jmr"
    },
    "dependencies": {
-      "@ioa/auth": "^9.6.0",
       "@ioa/config": "^10.0.0",
       "@ioa/koa": "^9.8.13",
-      "@ioa/ormv": "^9.8.11",
       "ioa": "^10.0.6"
    },
    "author": "xiangle",

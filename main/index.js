@@ -4,8 +4,6 @@ const app = require('@app');
 
 app.use('@ioa/config');
 app.use('@ioa/koa');
-app.use('@ioa/ormv');
-app.use('@ioa/auth');
 
 // app.loader({
 //    middleware: false
