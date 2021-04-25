@@ -1,9 +1,5 @@
-'use strict';
-
-const test = require('jmr');
-const axios = require('axios');
-
-axios.defaults.baseURL = 'http://localhost:8600';
+import test from 'jtm';
+import axios from 'axios';
 
 test('get', async t => {
    const { data } = await axios.get("/admin")
