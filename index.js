@@ -1,6 +1,6 @@
 import ioa from 'ioa';
 
-ioa.loadApp(
+await ioa.loadApp(
   "./main",
   "./admin",
   "./user"
