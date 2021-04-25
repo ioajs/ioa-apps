@@ -1,8 +1,6 @@
-'use strict';
+import ioa from 'ioa';
 
-const ioa = require('ioa');
-
-ioa.app(
+ioa.loadApp(
   "./main",
   "./admin",
   "./user"

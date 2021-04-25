@@ -1,6 +1,6 @@
-'use strict';
+import ioa from 'ioa';
 
-const { router } = require('@app');
+const { router } = ioa.app;
 
 router.get('/', 'home.index');
 

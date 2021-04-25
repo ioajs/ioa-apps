@@ -1,6 +1,4 @@
-'use strict';
-
-class Home {
+export default class Home {
    index(ctx) {
       ctx.body = 'hello ioa';
    }
@@ -14,6 +12,4 @@ class Home {
          body
       };
    }
-}
-
-module.exports = Home;
+};

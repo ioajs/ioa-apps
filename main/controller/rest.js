@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = class {
+export default class {
    async index(ctx) {
       ctx.body = ctx.params
    }

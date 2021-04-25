@@ -1,5 +1,3 @@
-'use strict';
-
-module.exports = async (ctx, next) => {
+export default async (ctx, next) => {
    await next();
 }

@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = class News {
+export default class News {
    home(ctx) {
       ctx.body = 'news home';
    }

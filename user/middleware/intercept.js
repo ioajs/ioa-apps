@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = async (ctx, next) => {
+export default async (ctx, next) => {
 
    ctx.body = '中间件拦截';
    

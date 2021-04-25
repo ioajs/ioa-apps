@@ -1,16 +1,17 @@
 {
    "name": "ioa-apps",
    "description": "ioa多应用启动示例",
-   "version": "10.0.6",
+   "version": "11.0.0",
+   "type": "module",
    "scripts": {
       "start": "node index.js",
       "dev": "node index.js",
       "test": "jmr"
    },
    "dependencies": {
-      "@ioa/config": "^10.0.0",
-      "@ioa/koa": "^9.8.13",
-      "ioa": "^10.0.6"
+      "@ioa/config": "^11.0.1",
+      "@ioa/koa": "^10.0.2",
+      "ioa": "^11.0.4-rc"
    },
    "author": "xiangle",
    "license": "ISC",
